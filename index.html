@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
     <!-- CSS Link  -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- DaisyUI & Tailwind CDN  -->
     <link
@@ -16,24 +16,68 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Font awesome CDN  -->
-    <script src="https://kit.fontawesome.com/cf49028e14.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/cf49028e14.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Google Font CDN  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="manrope-font">
     <header>
-
+      <!-- Nav Part Start  -->
+      <nav class="w-11/12 mx-auto">
+        <div class="navbar">
+          <div class="navbar-start">
+            <i class="fa-solid fa-arrow-right-long w-7 h-7 bg-[#ABEF5F] inline-flex rounded-full justify-center items-center text-black -rotate-45"></i>
+            <a class="btn btn-ghost text-xl font-extrabold pl-1">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex text-lg font-medium">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end lg:flex items-center"">
+            <div class="hidden lg:flex items-center"">
+              <button><i class="fa-solid fa-magnifying-glass font-semibold"></i></button>
+              <button><i class="fa-solid fa-cart-shopping font-semibold px-4"></i></button>
+              <a class="btn bg-[#ABEF5F] rounded-full font-extrabold">Book Consult<i class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i></a>
+            </div>
+            
+            
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost text-xl lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0"
+              >
+              <li><a>Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav Part End  -->
     </header>
-    
-    <main>
 
-    </main>
+    <main></main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
