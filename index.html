@@ -44,8 +44,8 @@
             <div class=" hidden lg:flex items-center"">
           <button><i class="fa-solid fa-magnifying-glass font-semibold"></i></button>
           <button><i class="fa-solid fa-cart-shopping font-semibold px-4"></i></button>
-          <a class="btn bg-[#ABEF5F] rounded-full font-extrabold">Book Consult<i
-              class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i></a>
+          <button class="btn bg-[#ABEF5F] rounded-full font-extrabold">Book Consult<i
+              class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i></button>
         </div>
 
 
@@ -196,7 +196,7 @@
       <div
         style="background-image: url('./assets/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <!-- Discuss Part Intro  -->
-        <div class="w-8/12 mx-auto pt-16">
+        <div class="w-8/12 mx-auto py-16">
           <div class="text-center">
             <small class="text-base font-bold bg-[#E5F2DF] px-4 py-2 rounded-full"><i
                 class="fa-solid fa-arrow-right pr-1"></i>Let's Connect</small>
@@ -223,11 +223,14 @@
               </div>
             </div>
             <div class="mt-4">
-              <textarea placeholder="Write your message here" class="textarea textarea-bordered w-full h-32 rounded-3xl"></textarea>
+              <textarea placeholder="Write your message here"
+                class="textarea textarea-bordered w-full h-32 rounded-3xl"></textarea>
             </div>
             <div class="mt-6">
-              <button class="btn btn-primary w-full bg-[#ABEF5F] hover:bg-green-500 rounded-full text-black font-extrabold border-0">Send Mail<i
-                class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i></button>
+              <button
+                class="btn btn-primary w-full bg-[#ABEF5F] hover:bg-green-500 rounded-full text-black font-extrabold border-0">Send
+                Mail<i
+                  class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i></button>
             </div>
           </form>
         </div>
@@ -236,7 +239,37 @@
     <!-- Lets Discuss Part End  -->
   </main>
 
-  <footer></footer>
+  <footer class="bg-[#1C1C1C] mt-5 footer footer-center text-base-content rounded p-10">
+    <!-- Footer Start  -->
+    <div class="w-full sm:w-9/12 mx-auto">
+      <div class="text-center pt-8">
+        <i
+          class="fa-solid fa-arrow-right-long w-7 h-7 bg-[#ABEF5F] inline-flex rounded-full justify-center items-center text-black -rotate-45"></i>
+        <a class="btn btn-ghost text-lg sm:text-xl font-extrabold pl-1 text-white">Rinterio</a>
+        <p
+          class="mx-auto max-w-sm sm:max-w-2xl text-center font-medium text-sm sm:text-base text-[#737373] py-4 sm:py-6">
+          Transform your vision into reality with our expert design and development services, delivering innovative
+          solutions tailored to your unique needs.
+        </p>
+      </div>
+      <nav class="grid grid-cols-1 sm:grid-flow-col sm:gap-28 gap-4 text-white mb-6 sm:mb-10">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <div class="text-center">
+        <button class="w-full lg:w-auto btn bg-[#ABEF5F] rounded-full font-extrabold">
+          Book Consult
+          <i
+            class="fa-solid fa-arrow-right-long w-7 h-7 bg-black inline-flex rounded-full justify-center items-center text-white -rotate-45"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Footer End -->
+  </footer>
+
 </body>
 
 </html>
